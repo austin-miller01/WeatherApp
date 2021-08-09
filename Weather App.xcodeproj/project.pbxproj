@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C31ECC7426C092EF00DBE826 /* Weather_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31ECC7326C092EF00DBE826 /* Weather_AppApp.swift */; };
-		C31ECC7626C092EF00DBE826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31ECC7526C092EF00DBE826 /* ContentView.swift */; };
+		C31ECC7626C092EF00DBE826 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31ECC7526C092EF00DBE826 /* WeatherView.swift */; };
 		C31ECC7826C092F000DBE826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31ECC7726C092F000DBE826 /* Assets.xcassets */; };
 		C31ECC7B26C092F000DBE826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31ECC7A26C092F000DBE826 /* Preview Assets.xcassets */; };
+		C34279D426C180020030ADAC /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34279D326C180020030ADAC /* WeatherService.swift */; };
+		C34279D626C182550030ADAC /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34279D526C182550030ADAC /* Weather.swift */; };
+		C34279D826C189740030ADAC /* WeathrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34279D726C189740030ADAC /* WeathrViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C31ECC7026C092EF00DBE826 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31ECC7326C092EF00DBE826 /* Weather_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppApp.swift; sourceTree = "<group>"; };
-		C31ECC7526C092EF00DBE826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C31ECC7526C092EF00DBE826 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		C31ECC7726C092F000DBE826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31ECC7A26C092F000DBE826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C31ECC7C26C092F000DBE826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34279D326C180020030ADAC /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		C34279D526C182550030ADAC /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C34279D726C189740030ADAC /* WeathrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathrViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C31ECC7326C092EF00DBE826 /* Weather_AppApp.swift */,
-				C31ECC7526C092EF00DBE826 /* ContentView.swift */,
+				C31ECC7526C092EF00DBE826 /* WeatherView.swift */,
 				C31ECC7726C092F000DBE826 /* Assets.xcassets */,
 				C31ECC7C26C092F000DBE826 /* Info.plist */,
 				C31ECC7926C092F000DBE826 /* Preview Content */,
+				C34279D326C180020030ADAC /* WeatherService.swift */,
+				C34279D526C182550030ADAC /* Weather.swift */,
+				C34279D726C189740030ADAC /* WeathrViewModel.swift */,
 			);
 			path = "Weather App";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31ECC7626C092EF00DBE826 /* ContentView.swift in Sources */,
+				C34279D826C189740030ADAC /* WeathrViewModel.swift in Sources */,
+				C34279D626C182550030ADAC /* Weather.swift in Sources */,
+				C31ECC7626C092EF00DBE826 /* WeatherView.swift in Sources */,
+				C34279D426C180020030ADAC /* WeatherService.swift in Sources */,
 				C31ECC7426C092EF00DBE826 /* Weather_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
